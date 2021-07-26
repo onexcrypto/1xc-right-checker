@@ -1,0 +1,25 @@
+{
+  "name": "1xc-right-checker",
+  "version": "0.1.0",
+  "description": "Right checking process",
+  "scripts": {
+    "test": "jest",
+    "prebuild": "rimraf core",
+    "build": "npm run prebuild & tsc"
+  },
+  "keywords": [],
+  "repository": "https://github.com/onexcrypto/1xc-right-checker",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  },
+  "main": "./core/index.js",
+  "types": "./core/index.d.ts",
+  "files": [
+    "core/"
+  ]
+}
