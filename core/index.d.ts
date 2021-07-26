@@ -1,0 +1,25 @@
+export * from "./rights";
+export declare const RightChecker: {
+    hasRight(right: string, rights: string[]): boolean;
+    hasAllRights(search: string[], knownRights: string[]): boolean;
+    hasAtLeastOneRight(search: string[], knownRights: string[]): boolean;
+    canReadUserProfile(rights: string[]): boolean;
+    canEditUserProfile(rights: string[]): boolean;
+    canReadExchanges(rights: string[]): boolean;
+    canReadWallet(rights: string[]): boolean;
+    canUpdateWalletMetadata(rights: string[]): boolean;
+    canReadWalletHistory(rights: string[]): boolean;
+    canReadWalletTransfers(rights: string[]): boolean;
+    canTransferMoney(rights: string[]): boolean;
+    canCreateAccessKey(rights: string[]): boolean;
+    canReadAccessKeys(rights: string[]): boolean;
+    canDeleteAccessKey(rights: string[]): boolean;
+    canReadBusinessDetails(rights: string[]): boolean;
+    canUpdateBusinessDetails(rights: string[]): boolean;
+    canReadProjects(rights: string[]): boolean;
+    canCreateProject(rights: string[]): boolean;
+    canUpdateProject(rights: string[]): boolean;
+    canDeleteProject(rights: string[]): boolean;
+    canReadBusinessPayments(rights: string[]): boolean;
+    canCreatePaymentIntent(rights: string[]): boolean;
+};
