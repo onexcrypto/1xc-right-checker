@@ -44,6 +44,22 @@ export const RightChecker = {
         return this.hasRight("account.exchanges.read", rights)
     },
 
+    canCreateExchangesTickets (rights: string[]) {
+        return this.hasRight("account.exchanges.tickets.create", rights)
+    },
+
+    canReadExchangesTickets (rights: string[]) {
+        return this.hasRight("account.exchanges.tickets.read", rights)
+    },
+
+    canCreateStandardWallet(rights: string[]) {
+        return this.hasRight("account.wallet.standard.create", rights);
+    },
+
+    canCreateBusinessWallet(rights: string[]) {
+        return this.hasRight("account.wallet.business.create", rights);
+    },
+
     canReadWallet (rights: string[]) {
         return this.hasRight("account.wallet.read", rights)
     },

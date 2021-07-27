@@ -6,6 +6,10 @@ export declare const RightChecker: {
     canReadUserProfile(rights: string[]): boolean;
     canEditUserProfile(rights: string[]): boolean;
     canReadExchanges(rights: string[]): boolean;
+    canCreateExchangesTickets(rights: string[]): boolean;
+    canReadExchangesTickets(rights: string[]): boolean;
+    canCreateStandardWallet(rights: string[]): boolean;
+    canCreateBusinessWallet(rights: string[]): boolean;
     canReadWallet(rights: string[]): boolean;
     canUpdateWalletMetadata(rights: string[]): boolean;
     canReadWalletHistory(rights: string[]): boolean;
