@@ -39,20 +39,11 @@ exports.RightChecker = {
     canEditUserProfile(rights) {
         return this.hasRight("account.profile.update", rights);
     },
+    canSubmitExchanges(rights) {
+        return this.hasRight("account.exchanges.submit", rights);
+    },
     canReadExchanges(rights) {
         return this.hasRight("account.exchanges.read", rights);
-    },
-    canCreateExchangesTickets(rights) {
-        return this.hasRight("account.exchanges.tickets.create", rights);
-    },
-    canReadExchangesTickets(rights) {
-        return this.hasRight("account.exchanges.tickets.read", rights);
-    },
-    canCreateStandardWallet(rights) {
-        return this.hasRight("account.wallet.standard.create", rights);
-    },
-    canCreateBusinessWallet(rights) {
-        return this.hasRight("account.wallet.business.create", rights);
     },
     canReadWallet(rights) {
         return this.hasRight("account.wallet.read", rights);

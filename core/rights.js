@@ -9,15 +9,11 @@ exports.PossibleRights = [
     /// exchange rights
     "account.exchanges.read",
     'account.exchanges.submit',
-    "account.exchanges.tickets.create",
-    "account.exchanges.tickets.read",
     "account.exchanges.all",
     /// Wallet rights
     "account.wallet.read",
     "account.wallet.update",
     "account.wallet.history.read",
-    "account.wallet.business.create",
-    "account.wallet.standard.create",
     "account.wallet.all",
     /// Wallet transfert
     "account.wallet.transfert.create",
