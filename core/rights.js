@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.PossibleRights = void 0;
 exports.PossibleRights = [
     "account.all",
     ///Profile rights
