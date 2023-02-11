@@ -7,6 +7,8 @@ exports.PossibleRights = [
     "account.profile.read",
     "account.profile.update",
     "account.profile.all",
+    "account.rules.assign",
+    "account.subaccounts.all",
     /// exchange rights
     "account.exchanges.read",
     'account.exchanges.submit',
