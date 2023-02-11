@@ -5,8 +5,6 @@ export declare const RightChecker: {
     hasAtLeastOneRight(search: string[], knownRights: string[]): boolean;
     canReadUserProfile(rights: string[]): boolean;
     canEditUserProfile(rights: string[]): boolean;
-    canAssignRules(rights: string[]): boolean;
-    canCreateSubaccounts(rights: string[]): boolean;
     canUpdateSubAccounts(rights: string[]): boolean;
     canSubmitExchanges(rights: string[]): boolean;
     canReadExchanges(rights: string[]): boolean;

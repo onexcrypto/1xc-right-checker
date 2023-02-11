@@ -40,14 +40,6 @@ export const RightChecker = {
         return this.hasRight("account.profile.update", rights)
     },
 
-    canAssignRules(rights: string[]) {
-        return this.hasRight("account.rules.assign", rights)
-    },
-
-    canCreateSubaccounts(rights: string[]) {
-        return this.hasRight("account.subaccounts.create", rights)
-    },
-
     canUpdateSubAccounts(rights: string[]) {
         return this.hasRight("account.subaccounts.create", rights)
     },

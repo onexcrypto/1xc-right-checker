@@ -51,12 +51,6 @@ exports.RightChecker = {
     canEditUserProfile(rights) {
         return this.hasRight("account.profile.update", rights);
     },
-    canAssignRules(rights) {
-        return this.hasRight("account.rules.assign", rights);
-    },
-    canCreateSubaccounts(rights) {
-        return this.hasRight("account.subaccounts.create", rights);
-    },
     canUpdateSubAccounts(rights) {
         return this.hasRight("account.subaccounts.create", rights);
     },
